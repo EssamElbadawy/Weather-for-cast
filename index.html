@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font Bootstrap link-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <title>Weather</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg py-5 color-nav ">
+        <div class="container ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01 ">
+                <img src="../imgs/logo@2x.png" alt="" class="logo ms-5" width="64" height="38">
+                <div class="text-nav ms-3">
+                    <h1 class="site-title text-white m-0 ">Weather</h1>
+                    <small class="site-description text-white">tagline goes here</small>
+                </div>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5 px-5 w-50 justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">LiveCameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid py-5 bg-img ">
+        <div class="input-group mb-3 p-5 mt-5 position-relative ">
+            <input id="searchBox" type="text" class="form-control p-3 rounded-start-5 searchBox"
+                aria-label="Text input with dropdown button" placeholder="Find your location then press enter...">
+        </div>
+
+        <div class="forecast-table ">
+            <div class="container">
+                <div class="forecast-container row" id="forecast">
+                    <div class="forecast-cards row">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/jquery-3.7.1.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/main.js"></script>
+</body>
+
+</html>

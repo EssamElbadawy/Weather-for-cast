@@ -1,0 +1,53 @@
+ .color-nav {
+     background-color: #1E202B;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
+
+ .branding {
+     text-decoration: none;
+ }
+
+ .text-nav h1 {
+     color: aliceblue;
+     font-size: 16px;
+     font-weight: 700;
+     font-family: Roboto, "Open Sans", sans-serif;
+ }
+
+ .text-nav small {
+     font-size: 10px;
+     font-weight: 300;
+     color: #bfc1c8;
+ }
+
+ .bg-img {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imgs/banner.png);
+     background-repeat: no-repeat;
+     background-color: #30323d;
+ }
+
+ .forecast-header {
+     background-color: #2D303D;
+ }
+
+ .forecast-content .fs-size {
+     font-size: 90px;
+     color: #fff;
+     font-weight: 700;
+ }
+
+ .forecast-content {
+     background-color: #46495c !important;
+ }
+
+ .margin-botton {
+     padding: 26%;
+ }
+
+ .input-group i {
+     margin: 20px 0 0 20px;
+ }
+
+ /* input::placeholder {
+     padding-left: 30px;
+ } */
